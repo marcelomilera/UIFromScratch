@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 //New components
 import { BooksComponent } from './books/books.component';
 import { SigninComponent } from './auth/signin/signin.component';
+import { SignupComponent } from './auth/signup/signup.component';
 
 import { ApiService } from './shared';
 //New services
@@ -29,7 +30,8 @@ import { AuthService } from './auth/auth.service';
     HomeComponent,
     AboutComponent,
     BooksComponent,
-    SigninComponent
+    SigninComponent,
+    SignupComponent
   ],
   providers: [
     ApiService,

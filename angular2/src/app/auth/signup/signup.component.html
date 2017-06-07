@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-  <h1>Sign In</h1>
+  <h1>Register</h1>
     <div>
       <div *ngIf="failedAuth" class="alert alert-danger">
         Username y/o password ingresados no son válidos
       </div>
     </div>
-    <form (ngSubmit)="onSignin(f)" #f="ngForm">
+    <form (ngSubmit)="onSignup(f)" #f="ngForm">
       <div class="form-group">
         <label for="username">Username</label>
         <input type="username" id="username" name="username" required ngModel class="form-control" #username="ngModel">
@@ -16,12 +16,12 @@
       </div>
       <div class="form-group">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" required ngModel class="form-control" #password="ngModel">
+        <input type="password" id="password" name="password" required ngModel minlength="6" maxlength="10" class="form-control" #password="ngModel">
         <div *ngIf="!password.valid && password.touched" class="alert alert-danger">
-          Ingresar password
+          Ingresar password ente 6 y 10 caracteres
         </div>
       </div>
-      <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Sign In</button>
+      <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Register</button>
     </form>
   </div>
 </div>
