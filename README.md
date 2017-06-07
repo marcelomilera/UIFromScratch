@@ -18,3 +18,5 @@ Se agregó:
 	- Registrar nuevo usuario ingresando username y password
 	- Validación utilizando Angular validators
 
+	About:
+	- Nombre del alumno
