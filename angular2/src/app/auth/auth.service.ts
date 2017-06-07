@@ -25,7 +25,7 @@ export class AuthService {
   create(username: string, password: string): Observable<Users> {
       let headers = new Headers({ 'Content-Type': 'application/json' });
       let options = new RequestOptions({ headers: headers });
-      
+      //Enviar POST request al JSON-SERVER con username y password ingresados
       return this.http.post('http://localhost:3000/users', { username:username, password: password }, options).map(res => res.json() as Users);
     }
 }

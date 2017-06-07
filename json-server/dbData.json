@@ -50,31 +50,6 @@
       "id": 1,
       "username": "jcyovera@gmail.com",
       "password": "admin123"
-    },
-    {
-      "username": "m.milera@pucp.pe",
-      "password": "claro123",
-      "id": 2
-    },
-    {
-      "username": "m.milera@pucp.pe",
-      "password": "claro123",
-      "id": 3
-    },
-    {
-      "username": "asfasd",
-      "password": "asdasdasd",
-      "id": 4
-    },
-    {
-      "username": "m.milera@pucp.pe",
-      "password": "claro123",
-      "id": 5
-    },
-    {
-      "username": "m.milera@pucp.pe",
-      "password": "claro123",
-      "id": 6
     }
   ]
 }

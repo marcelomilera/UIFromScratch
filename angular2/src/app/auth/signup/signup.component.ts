@@ -26,7 +26,7 @@ export class SignupComponent implements OnInit {
   onSignup(form: NgForm) {
     const username = form.value.username;
     const password = form.value.password;
-    //Buscar usuario y contraseña ingresados
+    //Registrar usuario y contraseña ingresados
     this.authService.create(username, password).subscribe(
       (res) => {
           if(res)
