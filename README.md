@@ -3,6 +3,7 @@ UI From Scratch - Assignment 2
 Angular 2
 
 Se agregó:
+
 	BooksComponent:
 	- Combo box para ordenar por Ano, Título o Rating
 	- Solicitar autenticación para acceder a la vista (SigninComponent)
